@@ -1,0 +1,175 @@
+Mods: {
+	EndfieldWings: {
+		Items: {
+			SiWings: {
+				DisplayName: Si-Sui Wings
+				Tooltip: '''
+					Unlimited flight
+					Double-tap jump in midair to switch modes
+					Cruise: hold jump to climb, hold jump + DOWN to hover
+					Hover: stays in place, responds instantly to input
+					Authority wheel appears at the bottom right when equipped
+					"Rivers embroider spring, mountains lock autumn dusk; old dreams end, all things renew."
+					'''
+			}
+			ZiWuSword: {
+				DisplayName: Zi-Wu Sword
+				Tooltip: '''
+					20% chance to ignore defense
+					One of the Twelve Seals · Zi hour
+					"Inscribe: one strike breaks valor; those who enter shall cower and retreat."
+					'''
+			}
+			WuShangShuttle: {
+				DisplayName: Wu-Shang Shuttle
+				Tooltip: '''
+					Immune to fall, lava and drowning damage
+					50% off NPC shop purchases
+					One of the Twelve Seals · Wu hour
+					"Inscribe: seven long silks gather wealth; those who enter shall lose count of coin."
+					'''
+			}
+			WeiJianRuler: {
+				DisplayName: Wei-Jian Ruler
+				Tooltip: '''
+					Your damage counts as both melee and magic
+					One of the Twelve Seals · Wei hour
+					"Inscribe: eight crafts hide treasures; those who enter shall linger and not return."
+					'''
+			}
+			ShenZhuWheel: {
+				DisplayName: Shen-Zhu Wheel
+				Tooltip: '''
+					Counts as being at every crafting station while equipped
+					One of the Twelve Seals · Shen hour
+					"Inscribe: nine forgings melt metal; those who enter shall witness its wonder."
+					'''
+			}
+			HaiShiStove: {
+				DisplayName: Hai-Shi Stove
+				Tooltip: '''
+					Regenerate 0.5% of max life per second
+					One of the Twelve Seals · Hai hour
+					"Inscribe: twelve dishes call to the table; those who enter shall feed their kin."
+					'''
+			}
+			YinShiPot: {
+				DisplayName: Yin-Shi Pot
+				Tooltip: '''
+					Immune to normal debuffs
+					Special debuffs last half as long
+					One of the Twelve Seals · Yin hour
+					"Inscribe: three white days of freedom; those who enter shall think unhuman thoughts."
+					'''
+			}
+			ChouMouChess: {
+				DisplayName: Chou-Mou Chess
+				Tooltip: '''
+					20% chance to dodge incoming hits
+					One of the Twelve Seals · Chou hour
+					"Inscribe: two thoughts count eight directions; those who enter shall lose their steps."
+					'''
+			}
+			MaoLvBell: {
+				DisplayName: Mao-Lv Bell
+				Tooltip: '''
+					Hitbox reduced by one third
+					One of the Twelve Seals · Mao hour
+					"Inscribe: four heavenly tones spread the law; those who enter shall find no escape from rules."
+					'''
+			}
+			ChenWenBook: {
+				DisplayName: Chen-Wen Book
+				Tooltip: '''
+					Survive one lethal hit: heal 25% of max life
+					600 second cooldown
+					One of the Twelve Seals · Chen hour
+					"Inscribe: five teachings dispel confusion; those who enter shall not tell ■■."
+					'''
+			}
+			SiNongStake: {
+				DisplayName: Si-Nong Stake
+				Tooltip: '''
+					Hits plant a Seed on the target (max 2)
+					Once stacked: blooms after 5s for 60% of stored damage, heals 3%
+					One of the Twelve Seals · Si hour
+					"Inscribe: six grains, rich harvest; those who enter shall eat plain and often."
+					'''
+			}
+			YouLiaoScale: {
+				DisplayName: You-Liao Scale
+				Tooltip: '''
+					Attacks deal extra 0.5% of the target's max life
+					One of the Twelve Seals · You hour
+					"Inscribe: ten palms soothe wounds; those who enter shall sleep away harm."
+					'''
+			}
+			XuHuiScroll: {
+				DisplayName: Xu-Hui Scroll
+				Tooltip: '''
+					Opens the Scroll Space (a large bag)
+					Items stay inside when unequipped
+					One of the Twelve Seals · Xu hour
+					"Inscribe: eleven scrolls bloom; those who enter shall praise every charm."
+					'''
+			}
+			TestMeleeBoost: {
+				DisplayName: Test · Melee Boost
+				Tooltip: '''
+					+100% melee damage
+					Test item
+					'''
+			}
+			TestRangedBoost: {
+				DisplayName: Test · Ranged Boost
+				Tooltip: '''
+					+100% ranged damage
+					Test item
+					'''
+			}
+			TestMagicBoost: {
+				DisplayName: Test · Magic Boost
+				Tooltip: '''
+					+100% magic damage
+					Test item
+					'''
+			}
+			TestSummonBoost: {
+				DisplayName: Test · Summon Boost
+				Tooltip: '''
+					+100% summon damage
+					Test item
+					'''
+			}
+			TestGun: {
+				DisplayName: Test Rifle
+				Tooltip: '''
+					100 damage
+					Test item
+					'''
+			}
+		}
+		Keybinds: {
+			AuthorityWheel: {
+				DisplayName: Authority Wheel (O)
+			}
+		}
+		Messages: {
+			ModeCruise: Si-Sui Wings · Cruise Mode
+			ModeHover: Si-Sui Wings · Hover Mode
+		}
+		Configs: {
+			WingsClientConfig: {
+				DisplayName: Si-Sui Wings
+				ShowHud: {
+					Label: Show merged HUD
+					Tooltip: Hide the authority / shichen panel at the top right
+				}
+				AllowHudDrag: {
+					Label: Allow right-drag HUD
+					Tooltip: When off, the HUD stays where it is
+				}
+			}
+		}
+	}
+}

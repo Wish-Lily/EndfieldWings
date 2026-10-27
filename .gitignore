@@ -1,0 +1,12 @@
+# 构建产物与本地素材
+bin/
+obj/
+build/
+*.tmod
+*.user
+.vs/
+.idea/
+
+# 第三方素材：不纳入公开仓库（版权不归本项目）
+Assets/Music/HuaSiShi.mp3
+Assets/UI/Theme/ThemeBg.png

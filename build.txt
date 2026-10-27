@@ -1,0 +1,4 @@
+author = 你的名字
+version = 0.1
+displayName = 终末地 · 祀岁翼
+side = Both

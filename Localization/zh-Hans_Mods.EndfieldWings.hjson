@@ -1,0 +1,175 @@
+Mods: {
+	EndfieldWings: {
+		Items: {
+			SiWings: {
+				DisplayName: 祀岁翼
+				Tooltip: '''
+					无限飞行
+					空中连按两次跳跃：切换巡航 / 悬浮模式
+					巡航：长按跳跃持续上升，按住跳跃 + ↓ 悬停
+					悬浮：默认悬停，方向键即时变向
+					装备后右下角出现权能轮盘
+					「川绣春江，山锁秋暝，故梦更尽万物新」
+					'''
+			}
+			ZiWuSword: {
+				DisplayName: 子武剑
+				Tooltip: '''
+					攻击 20% 概率无视防御
+					十二刻印之一 · 子时
+					「敬刻一道破勇力，入时者畏惧退避」
+					'''
+			}
+			WuShangShuttle: {
+				DisplayName: 午商梭
+				Tooltip: '''
+					免疫摔落、岩浆、溺水伤害
+					NPC 处购买价格减半
+					十二刻印之一 · 午时
+					「敬刻七长绢聚富，入时者不知财数」
+					'''
+			}
+			WeiJianRuler: {
+				DisplayName: 未建尺
+				Tooltip: '''
+					自身伤害同时视为近战伤害和魔法伤害
+					十二刻印之一 · 未时
+					「敬刻八筑巧藏珍，入时者流连难返」
+					'''
+			}
+			ShenZhuWheel: {
+				DisplayName: 申铸轮
+				Tooltip: '''
+					佩戴时视为同时处于所有制造环境
+					十二刻印之一 · 申时
+					「敬刻九铸金熔火，入时者得见其妙」
+					'''
+			}
+			HaiShiStove: {
+				DisplayName: 亥食灶
+				Tooltip: '''
+					每秒恢复自身 0.5% 最大生命值
+					十二刻印之一 · 亥时
+					「敬刻十二催饭香，入时者亲属饱肚肠」
+					'''
+			}
+			YinShiPot: {
+				DisplayName: 寅诗壶
+				Tooltip: '''
+					免疫常规负面 buff
+					特殊负面 buff 时间减半
+					十二刻印之一 · 寅时
+					「敬刻三白日逍遥，入时者所思非人」
+					'''
+			}
+			ChouMouChess: {
+				DisplayName: 丑谋棋
+				Tooltip: '''
+					受击 20% 概率闪避
+					十二刻印之一 · 丑时
+					「敬刻二思算八方，入时者移步尽失」
+					'''
+			}
+			MaoLvBell: {
+				DisplayName: 卯律钟
+				Tooltip: '''
+					受伤判定框缩小三分之一
+					十二刻印之一 · 卯时
+					「敬刻四天音传法，入时者难逾规矩」
+					'''
+			}
+			ChenWenBook: {
+				DisplayName: 辰文书
+				Tooltip: '''
+					免死一次：恢复 25% 最大生命值
+					600 秒一次
+					十二刻印之一 · 辰时
+					「敬刻五授道解惑，入时者不分■■」
+					'''
+			}
+			SiNongStake: {
+				DisplayName: 巳农桩
+				Tooltip: '''
+					命中种「因」，每敌最多 2 层
+					叠满后 5 秒结果：池内 60% 伤害，回复 3%
+					十二刻印之一 · 巳时
+					「敬刻六谷稻丰足，入时者朴食多餐」
+					'''
+			}
+			YouLiaoScale: {
+				DisplayName: 酉疗秤
+				Tooltip: '''
+					攻击附带对方 0.5% 最大生命值
+					十二刻印之一 · 酉时
+					「敬刻十抚伤愈痕，入时者以眠抗害」
+					'''
+			}
+			XuHuiScroll: {
+				DisplayName: 戌绘卷
+				Tooltip: '''
+					可打开画卷空间（大背包）
+					摘下不影响其中物品
+					十二刻印之一 · 戌时
+					「敬刻十一卷生花，入时者皆赏便符」
+					'''
+			}
+			TestMeleeBoost: {
+				DisplayName: 测试·近战增幅
+				Tooltip: '''
+					近战伤害 +100%
+					测试用
+					'''
+			}
+			TestRangedBoost: {
+				DisplayName: 测试·远程增幅
+				Tooltip: '''
+					远程伤害 +100%
+					测试用
+					'''
+			}
+			TestMagicBoost: {
+				DisplayName: 测试·魔法增幅
+				Tooltip: '''
+					魔法伤害 +100%
+					测试用
+					'''
+			}
+			TestSummonBoost: {
+				DisplayName: 测试·召唤增幅
+				Tooltip: '''
+					召唤伤害 +100%
+					测试用
+					'''
+			}
+			TestGun: {
+				DisplayName: 测试步枪
+				Tooltip: '''
+					伤害 100
+					测试用
+					'''
+			}
+		}
+		Keybinds: {
+			AuthorityWheel: {
+				DisplayName: 权能轮盘（O）
+			}
+		}
+		Messages: {
+			ModeCruise: 祀岁翼 · 巡航模式
+			ModeHover: 祀岁翼 · 悬浮模式
+		}
+		Configs: {
+			WingsClientConfig: {
+				DisplayName: 祀岁翼
+				ShowHud: {
+					Label: 显示合并 HUD
+					Tooltip: 关闭后不显示右上角的权能 / 岁时面板
+				}
+				AllowHudDrag: {
+					Label: 允许右键拖动 HUD
+					Tooltip: 关闭后 HUD 固定在当前位置
+				}
+			}
+		}
+	}
+}
